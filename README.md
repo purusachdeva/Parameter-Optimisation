@@ -10,8 +10,6 @@ This project focuses on optimizing support vector machine (SVM) parameters using
 
 - **Exploratory Data Analysis (EDA)**: EDA was performed to gain insights into the dataset's characteristics. This involved visualizing distributions, examining correlations between features and the target variable, and identifying potential outliers.
 
-- **Model Selection**: Support Vector Machine (SVM) was chosen as the base model for this optimization task due to its effectiveness in handling high-dimensional data and its flexibility in handling non-linear relationships.
-
 - **Bayesian Optimization**: Bayesian optimization was employed to search for the optimal SVM hyperparameters. This technique efficiently explores the hyperparameter space by building a probabilistic surrogate model of the objective function (in this case, model accuracy). It iteratively selects hyperparameters based on the surrogate model's predictions, balancing exploration and exploitation to find the best performing set of hyperparameters.
 
 - **Evaluation**: The optimized SVM models were evaluated using a hold-out test set. The performance metrics considered include accuracy, precision, recall, and F1-score to provide a comprehensive assessment of model performance.
